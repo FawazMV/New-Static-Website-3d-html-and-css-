@@ -206,19 +206,22 @@ body{
 .cloumn:hover .ull li::after{
     background-color: #fff;
     transition: .5s;
-
-
-
-
-
-
-
-
-
-
-
-
 }
+.cloumn:hover .ull{
+    margin-left: 97px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .feature-content{
 
     margin-top: 1px;
@@ -233,4 +236,26 @@ body{
     margin: 14px auto 120px auto;
     position: relative;
     left: 15px;
+}
+.column1 span{
+    color: #c6a585;
+}
+.feature-content ul{
+    list-style-type: none;
+}
+.feature-content li{
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: relative;
+}
+.feature-content li::after{
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #c6a585;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: 250px;
 }
