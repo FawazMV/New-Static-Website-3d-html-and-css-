@@ -207,6 +207,9 @@ body{
     background-color: #fff;
     transition: .5s;
 }
+.cloumn:hover .span1{
+    color: #fff;
+}
 .cloumn:hover .ull{
     margin-left: 97px;
 }
